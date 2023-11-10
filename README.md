@@ -27,7 +27,7 @@ Django app, реализующий древовидное меню, соблюд
 8. Для перехода в меню: `http://127.0.0.1:8000/tree_menu/`
 
 ## Инструкции по запуску в docker:
-1. Создание образа проекта:`sudo docker build -t phonebook .`
+1. Создание образа проекта:`sudo docker build -t tree .`
 2. Запуск контейнера: `docker run --rm --name tree_menu -p 8080:8080 tree`
 3. Создание суперпользователя: `docker exec -it tree_menu python manage.py createsuperuser`
 4. Для перехода в административную панель: `http://127.0.0.1:8080/admin/`
